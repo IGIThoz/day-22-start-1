@@ -27,7 +27,7 @@ def exit_game():
     game_on = False
     screen.bye()
 
-
+# 123455
 screen.listen()
 screen.onkeypress(l_paddle.go_up, "w")
 screen.onkeypress(l_paddle.go_down, "s")
